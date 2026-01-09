@@ -42,8 +42,8 @@ Sistema otimizado para um transportador que gerencia:
 | Fase | Descrição | Status |
 |:----:|-----------|:------:|
 | **1** | Setup do ambiente (Vite + React + Tailwind + Backend) | ✅ Concluída |
-| **2** | Backend – Express + SQLite + JWT + rotas básicas | 🔄 Em andamento |
-| **3** | Frontend – Telas principais + integração com API | ⏳ Pendente |
+| **2** | Backend – Express + SQLite + JWT + rotas básicas | ✅ Concluída |
+| **3** | Frontend – Telas principais + integração com API | 🔄 Em andamento |
 | **4** | Integração completa + testes end-to-end | ⏳ Pendente |
 | **5** | Deploy (Vercel frontend + Railway backend) | ⏳ Pendente |
 
@@ -141,15 +141,19 @@ fonte-flow/
 - [x] Configuração Tailwind CSS
 - [x] Estrutura inicial do backend
 
-### 🔄 Fase 2 - Backend (Em Andamento)
-- [ ] Implementar rotas de clientes
-- [ ] Implementar rotas de vendas
-- [ ] Implementar rotas de estoque
-- [ ] Implementar dashboard endpoints
-- [ ] Implementar geração de relatórios
-- [ ] Configurar autenticação JWT
+### ✅ Fase 2 - Backend (Concluída)
+- [x] Configurar banco de dados SQLite
+- [x] Criar schema com 9 tabelas normalizadas
+- [x] Implementar autenticação JWT
+- [x] Implementar rotas de clientes (CRUD completo)
+- [x] Implementar rotas de vendas com itens
+- [x] Implementar rotas de retiradas com itens
+- [x] Implementar dashboard endpoints
+- [x] Sistema de estoque virtual (retiradas - vendas)
+- [x] Middleware de autenticação
+- [x] Controllers e validações
 
-### ⏳ Fase 3 - Frontend
+### 🔄 Fase 3 - Frontend (Em Andamento)
 - [ ] Tela de Login
 - [ ] Dashboard principal
 - [ ] CRUD de Clientes
