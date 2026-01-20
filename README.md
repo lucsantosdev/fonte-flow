@@ -43,8 +43,8 @@ Sistema otimizado para um transportador que gerencia:
 |:----:|-----------|:------:|
 | **1** | Setup do ambiente (Vite + React + Tailwind + Backend) | ✅ Concluída |
 | **2** | Backend – Express + SQLite + JWT + rotas básicas | ✅ Concluída |
-| **3** | Frontend – Telas principais + integração com API | 🔄 Em andamento |
-| **4** | Integração completa + testes end-to-end | ⏳ Pendente |
+| **3** | Frontend – Telas principais + componentes + estilização | 🔄 Em andamento (80%) |
+| **4** | Integração Frontend ↔ Backend + testes | ⏳ Pendente |
 | **5** | Deploy (Vercel frontend + Railway backend) | ⏳ Pendente |
 
 ---
@@ -154,12 +154,19 @@ fonte-flow/
 - [x] Controllers e validações
 
 ### 🔄 Fase 3 - Frontend (Em Andamento)
-- [ ] Tela de Login
-- [ ] Dashboard principal
-- [ ] CRUD de Clientes
-- [ ] Registro de Vendas
-- [ ] Tela de Relatórios
-- [ ] Integração com API
+- [x] Tela de Login com tema dark/light
+- [x] Dashboard principal com cards e gráficos
+- [x] CRUD de Clientes (listagem, cadastro, edição, exclusão)
+- [x] Registro de Vendas com formulário e listagem
+- [x] Tela de Relatórios (estrutura básica)
+- [x] Componentes reutilizáveis (Layout, Cards, Forms)
+- [x] Sistema de cores personalizado (Tailwind)
+- [x] Ícones com Lucide React
+- [ ] **Integração completa Frontend ↔ Backend**
+- [ ] Refinamentos e validações adicionais
+- [ ] Sistema de notificações/feedback
+- [ ] Tratamento de erros aprimorado
+- [ ] Página de Relatórios completa com filtros e exportação
 
 ### ⏳ Fase 4 - Testes
 - [ ] Testes unitários
